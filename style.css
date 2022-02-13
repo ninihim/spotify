@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* nav */
+nav {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-item {
+  font-weight: 700;
+  padding: 0 16px;
+}
+
+.nav-container a:hover {
+  color: #1ed760;
+}
+
+/* main */
+.main {
+  height: 968px;
+  background-color: rgb(41, 65, 171);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.headline {
+  color: #1ed760;
+  font-size: 146px;
+  font-weight: 900;
+}
+
+.firt-title {
+  position: relative;
+  left: -100px;
+}
+
+.second-title {
+  position: relative;
+  left: 100px;
+}
+
+.sub-title {
+  color: #1ed760;
+  margin: 50px 0;
+}
+
+.btn {
+  width: 183px;
+  height: 46px;
+  background-color: #1ed760;
+  color: rgb(41, 65, 171);
+  font-weight: 700;
+  border-radius: 500px;
+  border: none;
+}
+
+.btn:hover {
+  transform: scale(1.07);
+}
+
+/* footer */
+footer {
+  background-color: black;
+  height: 530px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 1160px;
+  padding: 80px 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-container a:hover {
+  color: #1ed760;
+}
+
+.footer-container-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.title a {
+  margin: 10px 0;
+}
+
+.footer-container-right {
+  font-size: 24px;
+  display: flex;
+}
+
+.first-title {
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.icon-box {
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
+  border-radius: 50%;
+  margin-right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box:hover {
+  color: #1ed760;
+}
+
+.footer-container-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container-bottom {
+  color: gray;
+}
+
+.USA {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  float: right;
+}
+
+.info a {
+  margin-right: 15px;
+  color: gray;
+}
